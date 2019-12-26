@@ -1,0 +1,3 @@
+
+
+document.cookie.indexOf(imLogin)

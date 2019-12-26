@@ -1,0 +1,208 @@
+/* *{outline: 1px solid blue;} */
+*{margin:0; padding:0; font-size:10px;}
+a{color: black;}
+
+html, body{
+    width:100%;
+    height:120%;    
+    display:flex;
+    justify-content: center;
+}
+.menu{
+    width:100%;
+}
+
+.mainbox{
+    width:70%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+#header{
+    display: flex;
+    height:50px;
+    width:100%;
+    flex-direction: row;
+}
+#gnb{
+    width:80%;
+}
+.logo{
+    height: 50px;
+    width:20%;
+    
+}
+#loginbox{
+    width:100%;
+}
+
+#desktop{
+    width:100%;
+    height: 100%;
+}
+
+#slideshow{
+    width:100%;
+    height:300px;
+    background: white;
+}
+
+.section{    
+    width:100px;
+    height:100px;
+    /* outline: 1px solid red; */
+}
+
+div.box.item4{
+    padding-left: 20%;
+}
+
+.box.item4>div{
+    width:80%;
+    height:50%;
+}
+
+#middlebox{
+    display:flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width:100%;
+    height:300px;
+}
+
+.box.item4 li>a{
+    font-size: 0.7em;
+}
+
+#footer{
+    width:100%;
+    height:200px;
+    display: flex;
+    flex-direction : column;
+}
+#linkbox{
+    width:100%;
+    height:20%;
+    display:flex;
+    justify-content: space-evenly;
+}
+#agreement{
+    text-align: center;
+    width:100%;
+    height:10%;
+}
+#information{
+    background-color:#222222;
+    width:100%;
+    
+    display:flex;
+}
+#infleft{
+    width:30%;
+    height:100%;
+    text-align: center;
+    font-size:1.5em;
+    color:white;
+}
+#infright{
+    width:70%;
+    height:100%;
+    text-align:left;
+    color:white;
+}
+
+.board.item{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+table#noticeboard{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    /* border: 1px solid black;     */
+}
+#noticeboardname{
+    width: 50%;
+    margin-left: 25%;
+
+    /* border: 1px solid black;     */
+}
+table#freeboard{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+
+}
+#freeboardname{
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.board.item{
+    width:100%;
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+table#noticeboard th{
+        width: 35%;
+        /* padding: 2px; */
+        font-weight: bold;
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+    }
+table#noticeboard td{
+        width: 15%;
+        /* padding: 2px; */
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+    }
+table#freeboard th{
+        width: 35%;
+        /* padding: 2px; */
+        font-weight: bold;
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+    }
+table#freeboard td{
+        width: 15%;
+        /* padding: 2px; */
+        vertical-align: top;
+        border-bottom: 1px solid #ccc;
+    }
+
+
+    /* 이미지 박스  */
+    .box3{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        width:100%;
+        height:200px;
+        background-color: blanchedalmond;
+    }
+    #imagebox{
+        display:flex;
+        width:100%;
+        height:95%;
+    }
+    #imagebox img{
+        display:flex;
+        width:100%;
+        height:95%;
+    }
+    #imageboxname{
+        width:100%;
+        height:5%;
+    }
+
